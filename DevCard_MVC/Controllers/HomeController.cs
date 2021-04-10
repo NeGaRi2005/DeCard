@@ -10,6 +10,7 @@ namespace DevCard_MVC.Controllers
 
         public IActionResult Index()
         {
+            ViewData["h5"] = "من بهترین برنامه نویس جهان خواهم شد";
             return View();
         }
 

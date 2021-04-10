@@ -5,10 +5,12 @@
 <section class="about-me-section p-3 p-lg-5 theme-bg-light">
     <div class="container">
         <div class="profile-teaser media flex-column flex-lg-row">
-            <img class="profile-image mb-3 mb-lg-0 ml-lg-5 mr-md-0" src="assets/images/me.jpeg" alt="">
+            <img class="profile-image mb-3 mb-lg-0 ml-lg-5 mr-md-0" src="assets/images/me.jpeg.jpeg" alt="">
             <div class="media-body">
-                <h2 class="name font-weight-bold mb-1">نگار مختاری</h2>
+                <h3 class="name font-weight-bold mb-1">نگار</h3>
                 <div class="tagline mb-3">برنامه نویس ارشد</div>
+                @ViewData["h5"]
+
                 <div class="bio mb-4">
                     لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از
                     طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و
@@ -20,12 +22,13 @@
                         <span class="d-none d-md-inline">
                             برو
                             به
-                        </span> نگاری
+                        </span> نـرٍريا
                     </a>
                     <a class="btn btn-secondary mb-3" href="#">
                         <i class="fas fa-file-alt ml-2"></i>
                         <span class="d-none d-md-inline">مشاهده </span> نمونه کارها
                     </a>
+                    <partial name="Project" />
                 </div>
             </div>
 
