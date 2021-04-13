@@ -1,4 +1,4 @@
-﻿
+﻿@model Contact
 @{
     ViewData["Title"] = "ارتباط با ما";
 }
@@ -52,7 +52,7 @@
             </ul>
         </div>
     </div>
-   
+
 </section>
 <section class="contact-section px-3 py-5 p-md-5">
     <div class="container">
@@ -71,7 +71,7 @@
             </div>
         }*@
 
-        @*<form id="contact-form" class="contact-form col-lg-8 mx-lg-auto" method="post" asp-action="Contact">
+        <form id="contact-form" class="contact-form col-lg-8 mx-lg-auto" method="post" asp-action="Contact">
             <h3 class="text-center mb-3">در دسترس باشید!</h3>
             <div class="form-row">
                 <div class="form-group col-md-6">
@@ -83,9 +83,11 @@
                     <label class="sr-only" asp-for="Email">ایمیل</label>
                     <input type="email" class="form-control" asp-for="Email" placeholder="ایمیل">
                     <span asp-validation-for="Email" class="text-danger"></span>
+                    <span asp-validation-for="Name" class="text-danger"></span>
+
                 </div>
                 <div class="form-group col-12">
-                    <select class="custom-select" asp-for="Service" asp-items="Model.Services">
+                    <select class="custom-select" asp-for="Service" >
                         <option value="0" selected="selected">سرویس مورد نظر خود را انتخاب کنید...</option>
                     </select>
                 </div>
@@ -93,11 +95,13 @@
                     <label class="sr-only" asp-for="Message">پیغام شما</label>
                     <textarea class="form-control" asp-for="Message"
                               placeholder="پیغام خود را وارد نمایید ..." rows="10"></textarea>
+                    <span asp-validation-for="Message"></span>
+
                 </div>
                 <div class="form-group col-12">
                     <button type="submit" class="btn btn-block btn-primary py-2">ارسال</button>
                 </div>
             </div>
-        </form>*@
+        </form>
     </div>
 </section>

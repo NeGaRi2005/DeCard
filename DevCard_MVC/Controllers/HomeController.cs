@@ -1,5 +1,9 @@
-﻿using DevCard_MVC.Models;
+﻿using Aspose.Pdf.Facades;
+using DevCard_MVC.Models;
+using DocumentFormat.OpenXml.Wordprocessing;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using System;
 using System.Diagnostics;
 
 namespace DevCard_MVC.Controllers
@@ -12,10 +16,23 @@ namespace DevCard_MVC.Controllers
         {
             return View();
         }
+        [HttpGet]
+        public IActionResult Contact() => View();
 
-        public IActionResult Contact()
+        ////[HttpPost]
+
+        ////public JsonResult Contact(IFormCollection form)
+        ////{
+        ////    var ame = form["name"];
+        ////    return Json(Ok());
+
+        ////}
+        [HttpPost]
+        public JsonResult Contact(Contact form)
         {
-            return View();
+            Console.Write(form.ToString());
+            return Json(Ok());
+
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
