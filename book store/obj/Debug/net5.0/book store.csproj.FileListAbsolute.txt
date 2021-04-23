@@ -1,0 +1,47 @@
+D:\Webs\book store\bin\Debug\net5.0\appsettings.Development.json
+D:\Webs\book store\bin\Debug\net5.0\appsettings.json
+D:\Webs\book store\bin\Debug\net5.0\book store.exe
+D:\Webs\book store\bin\Debug\net5.0\book store.deps.json
+D:\Webs\book store\bin\Debug\net5.0\book store.runtimeconfig.json
+D:\Webs\book store\bin\Debug\net5.0\book store.runtimeconfig.dev.json
+D:\Webs\book store\bin\Debug\net5.0\book store.dll
+D:\Webs\book store\bin\Debug\net5.0\ref\book store.dll
+D:\Webs\book store\bin\Debug\net5.0\book store.pdb
+D:\Webs\book store\bin\Debug\net5.0\book store.Views.dll
+D:\Webs\book store\bin\Debug\net5.0\book store.Views.pdb
+D:\Webs\book store\obj\Debug\net5.0\book store.csprojAssemblyReference.cache
+D:\Webs\book store\obj\Debug\net5.0\book store.GeneratedMSBuildEditorConfig.editorconfig
+D:\Webs\book store\obj\Debug\net5.0\book store.AssemblyInfoInputs.cache
+D:\Webs\book store\obj\Debug\net5.0\book store.AssemblyInfo.cs
+D:\Webs\book store\obj\Debug\net5.0\book store.csproj.CoreCompileInputs.cache
+D:\Webs\book store\obj\Debug\net5.0\book store.MvcApplicationPartsAssemblyInfo.cache
+D:\Webs\book store\obj\Debug\net5.0\book store.RazorAssemblyInfo.cache
+D:\Webs\book store\obj\Debug\net5.0\book store.RazorAssemblyInfo.cs
+D:\Webs\book store\obj\Debug\net5.0\staticwebassets\book store.StaticWebAssets.Manifest.cache
+D:\Webs\book store\obj\Debug\net5.0\staticwebassets\book store.StaticWebAssets.xml
+D:\Webs\book store\obj\Debug\net5.0\scopedcss\bundle\book store.styles.css
+D:\Webs\book store\obj\Debug\net5.0\book store.TagHelpers.input.cache
+D:\Webs\book store\obj\Debug\net5.0\book store.TagHelpers.output.cache
+D:\Webs\book store\obj\Debug\net5.0\book store.RazorCoreGenerate.cache
+D:\Webs\book store\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
+D:\Webs\book store\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
+D:\Webs\book store\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+D:\Webs\book store\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+D:\Webs\book store\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
+D:\Webs\book store\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
+D:\Webs\book store\obj\Debug\net5.0\book store.RazorTargetAssemblyInfo.cache
+D:\Webs\book store\obj\Debug\net5.0\book store.RazorTargetAssemblyInfo.cs
+D:\Webs\book store\obj\Debug\net5.0\book store.Views.pdb
+D:\Webs\book store\obj\Debug\net5.0\book store.dll
+D:\Webs\book store\obj\Debug\net5.0\ref\book store.dll
+D:\Webs\book store\obj\Debug\net5.0\book store.pdb
+D:\Webs\book store\obj\Debug\net5.0\book store.genruntimeconfig.cache
+D:\Webs\book store\obj\Debug\net5.0\book store.csproj.CopyComplete
+D:\Webs\book store\obj\Debug\net5.0\Razor\Views\Home\Components\Charts\_charts.cshtml.g.cs
+D:\Webs\book store\obj\Debug\net5.0\Razor\Views\Shared\About.cshtml.g.cs
+D:\Webs\book store\obj\Debug\net5.0\Razor\Views\Shared\Menu.cshtml.g.cs
+D:\Webs\book store\obj\Debug\net5.0\Razor\Views\Home\Portfolio.cshtml.g.cs
+D:\Webs\book store\obj\Debug\net5.0\Razor\Views\Home\Experience.cshtml.g.cs
+D:\Webs\book store\obj\Debug\net5.0\Razor\Views\Home\Client.cshtml.g.cs
+D:\Webs\book store\obj\Debug\net5.0\Razor\Views\Home\Contact.cshtml.g.cs
+D:\Webs\book store\obj\Debug\net5.0\Razor\Views\Home\Testimonial.cshtml.g.cs

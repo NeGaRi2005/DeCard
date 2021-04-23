@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "YAhQ3aaFKrClCJsokUmr65hFO7qx6JQddvj1iBPK9NP85Cfy61vzjSslrqUr2OVkVN+L0pcqta9f8w7zbMigPQ==",
+  "dgSpecHash": "ozQIsEHeZDQy+FLTuCGlmYLqsreOQQ3NAEaEFWcgRpZwt2tuJeGuFAAuW2nbnB2fcV1LpYdGjQJvoWzNg0MhTg==",
   "success": true,
   "projectFilePath": "D:\\Webs\\DevCard_MVC\\DevCard_MVC.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Lenovo\\.nuget\\packages\\aspose.pdf\\21.4.0\\aspose.pdf.21.4.0.nupkg.sha512",
+    "C:\\Users\\Lenovo\\.nuget\\packages\\autofac\\6.1.0\\autofac.6.1.0.nupkg.sha512",
     "C:\\Users\\Lenovo\\.nuget\\packages\\documentformat.openxml\\2.12.3\\documentformat.openxml.2.12.3.nupkg.sha512",
     "C:\\Users\\Lenovo\\.nuget\\packages\\humanizer.core\\2.2.0\\humanizer.core.2.2.0.nupkg.sha512",
     "C:\\Users\\Lenovo\\.nuget\\packages\\microsoft.aspnet.mvc\\5.2.7\\microsoft.aspnet.mvc.5.2.7.nupkg.sha512",
@@ -71,7 +72,7 @@
     "C:\\Users\\Lenovo\\.nuget\\packages\\system.configuration.configurationmanager\\4.5.0\\system.configuration.configurationmanager.4.5.0.nupkg.sha512",
     "C:\\Users\\Lenovo\\.nuget\\packages\\system.console\\4.3.0\\system.console.4.3.0.nupkg.sha512",
     "C:\\Users\\Lenovo\\.nuget\\packages\\system.diagnostics.debug\\4.3.0\\system.diagnostics.debug.4.3.0.nupkg.sha512",
-    "C:\\Users\\Lenovo\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.3.0\\system.diagnostics.diagnosticsource.4.3.0.nupkg.sha512",
+    "C:\\Users\\Lenovo\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.7.1\\system.diagnostics.diagnosticsource.4.7.1.nupkg.sha512",
     "C:\\Users\\Lenovo\\.nuget\\packages\\system.diagnostics.performancecounter\\4.5.0\\system.diagnostics.performancecounter.4.5.0.nupkg.sha512",
     "C:\\Users\\Lenovo\\.nuget\\packages\\system.diagnostics.tools\\4.3.0\\system.diagnostics.tools.4.3.0.nupkg.sha512",
     "C:\\Users\\Lenovo\\.nuget\\packages\\system.diagnostics.tracing\\4.3.0\\system.diagnostics.tracing.4.3.0.nupkg.sha512",

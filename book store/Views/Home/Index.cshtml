@@ -1,0 +1,48 @@
+﻿@await Html.PartialAsync("Menu")
+    <div class="outside-main" id="page-content">
+        <div class="container">
+            <div class="row">
+                @await Html.PartialAsync("About")
+                <section class="col-md-9 col-sm-12 col-xs-12 col-md-offset-3 rzm_portfolio" id="portfolio">
+                    @await Html.PartialAsync("Portfolio")
+                    <div class="rzm_button">
+                        <a href="" class="btn btn-sm btn-default">Show More</a>
+                    </div>
+                </section>
+                 @*End Profile Section*@
+                 @*Start Experience section*@
+                @await Html.PartialAsync("Experience")
+                 @*Start Client section*@
+                @await Html.PartialAsync("Client")
+                 @*Start Testimonial section*@
+                @await Html.PartialAsync("Testimonial")
+                 @*Start Contact section*@
+                @await Html.PartialAsync("Contact")
+
+
+            </div>
+        </div> 
+    </div>  
+     @*Start footer section*@
+    <section class="col-md-12 col-sm-12 col-xs-12 rzm_footer container-fluid">
+        <div class="container">
+            <h4 style="font-size:20px" ; align="right">فروشگاه ما</h4>
+            <div class="rez_footer_social">
+
+                <a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                <a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                <a href=""><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                <a href=""><i class="fa fa-behance" aria-hidden="true"></i></a>
+                <a href=""><i class="fa fa-dribbble" aria-hidden="true"></i></a>
+                <a href=""><i class="fa fa-pinterest-p" aria-hidden="true"></i></a>
+                <a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
+
+            </div>
+            <p style="font-size:18px" ; align="right">
+                آ©   آدرس نريال مرکزی: تهران، خیابان شریعتی، بالاتر از استاد مطهری، نبش کوچه کلاته، پلاک ۷۴۳
+
+                ساعات کاری: ۹ صبح تا ۱۰ شب در روزهای عادی. ۴ بعدازظهر تا ۱۰ شب در روزهای جمعه
+            </p>
+        </div>
+    </section>
+

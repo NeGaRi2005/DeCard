@@ -1,0 +1,98 @@
+﻿@model Contact
+
+<section class="col-md-9 col-sm-12 col-xs-12 col-md-offset-3 rzm_contact" id="contact">
+    @if (!string.IsNullOrWhiteSpace(ViewBag.success))
+    {
+    <div >
+        <style>
+            p {
+                border: dashed;
+                color: red;
+                font-size: 20px;
+                padding: 5px;
+                margin: 5px;
+            }
+        </style>
+        <p>@ViewBag.success</p>
+    </div>
+        
+        
+    }
+    @if (!string.IsNullOrWhiteSpace(ViewBag.error))
+    {
+<div >
+    <style>
+        p
+        {
+           border: dashed;
+           color:red;
+           font-size:20px;
+           padding:5px;
+           margin:5px;
+       
+        }
+
+    </style>
+    <p>@ViewBag.error</p>
+</div>
+          
+        
+    }
+    <h1 class="title">نظرات</h1>
+    <!-- Start Contact Form -->
+    <form id="contact-form" method="post" role="form" asp-action="Contact">
+
+
+
+
+        <div class="messages"></div>
+
+        <div class="controls">
+
+            <div class="row">
+                <div class="col-md-3 col-xs-12 input-group">
+                    <div class="form-group">
+                        <input asp-for="Name" class="form-control" placeholder="نام *">
+                        <span style="color:red" asp-validation-for="Name"></span>
+                        <div class="help-block with-errors"></div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-xs-12 input-group">
+                    <div class="form-group">
+                        <input asp-for="LastName" class="form-control" placeholder="نام خانوادگی*">
+                        <span style="color:red" asp-validation-for="LastName"></span>
+                        <div class="help-block with-errors"></div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-xs-12 input-group">
+                    <div class="form-group">
+                        <input asp-for="Email" class="form-control" placeholder="ایمیل*">
+                        <span style="color:red" asp-validation-for="Email"></span>
+                        <div class="help-block with-errors"></div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-xs-12 input-group">
+                    <div class="form-group">
+                        <input asp-for="phone" class="form-control" placeholder="شماره مبایل*">
+
+                        <div class="help-block with-errors"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 col-xs-12 input-group rzm_msz_box">
+                    <div class="form-group">
+                        <textarea asp-for="Massage" class="form-control" placeholder="اینجا بنویسید*" rows="6"></textarea>
+                        <span style="color:red"asp-validation-for="Massage"></span>
+                        <div class="help-block with-errors"></div>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <input type="submit" class="btn btn-success btn-send main-btn center-block" value="ارسال پیام">
+                </div>
+            </div>
+        </div>
+
+    </form>
+    <!-- End Contact Form -->
+</section>
